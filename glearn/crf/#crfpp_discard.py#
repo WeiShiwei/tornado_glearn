@@ -1,0 +1,316 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+"""
+The :mod:`sklearn.crf.crfpp` module implements Conditional Random Field algorithms. These
+are supervised learning methods .
+"""
+
+# Author: WeiShiwei <weishiwei920@163.com>
+#
+# License: 
+
+import sys
+import os
+import re
+import string
+import commands
+import tempfile 
+import logutil
+import datetime
+import time
+import json
+import random
+
+from datasets import datasets,train_dataset,output_dataset,testUnit,testBucket
+from model import crf_model
+from logutil import logger
+
+import crfpp_options
+import global_variables as gv
+import evalutil
+import conlleval
+import orm
+import pattern
+
+from CRFPP_wrap.decoder import decoder
+
+class crf:
+	""" docstring for crf """
+	def __init__(self):
+		pass
+
+	@classmethod
+	def crf_learn(self,template_file,train_file,model_file):
+	    """CRF training
+	    
+	    example:
+	        crf_learn -c 4.0 template train.data model
+	        (3 path):template_file train_file model_file 
+	    """ 
+	    # commandLine = gv.crfpp_path + '/' + 'crf_learn'
+	    commandLine = 'crf_learn'
+	    commandLine += ' -a '+ crfpp_options.ALGORITHM
+	    commandLine += ' -p '+ str(crfpp_options.THREAD_NUM)
+	    commandLine += ' -c '+ str(crfpp_options.HYPER_PARAMETER)
+	    commandLine += ' -f '+ str(crfpp_options.CUTOFF_HRESHOLD)
+	    commandLine += ' ' + template_file + " " + train_file + " " + model_file
+	    print commandLine
+	    (status, output)=commands.getstatusoutput(commandLine)
+	    print "status = %s"%status
+	    print output
+	    return (status, output)
+
+	@classmethod
+	def crf_test(self,model_file,test_file,output_file):
+	    """CRF decoding
+
+	    example:
+	        crf_test -m model test.data > output.txt
+	    """
+	    # commandLine = gv.crfpp_path + '/' + 'crf_test'
+	    commandLine = 'crf_test'
+	    # commandLine += ' -v ' + str(crfpp_options.VERBOSE)
+	    # commandLine += ' -n ' + str(crfpp_options.NBEST)
+	    commandLine += ' -m ' + model_file+" "+test_file+" > "+output_file
+	    print commandLine
+	    (status, output)=commands.getstatusoutput(commandLine)
+	    print status,output
+	    return (status, output)
+
+	@classmethod
+	def encode(self,train_dataset):
+		""""""
+		crf_model_id = train_dataset.crf_model_id
+		crf_conll_samples = train_dataset.crf_conll_samples
+		if not crf_conll_samples:
+			print '%s have no train_data'%(crf_model_id)
+			return None
+
+		model = crf_model(crf_model_id)
+		model.set_status('training')
+
+		train_file_tempfile = tempfile.NamedTemporaryFile()
+		train_file_tempfile.write('\n'.join(crf_conll_samples))
+		train_file_tempfile.flush() #将缓冲区中的数据立刻写入文件
+
+	        # 把从数据库中得到的训练数据保存到当前目录的train_corpus目录下
+	        train_corpus_file = os.path.join( gv.train_corpus_path, str(crf_model_id)+'.train')
+	        with open(train_corpus_file,'w') as outfile:
+	            outfile.write('\n'.join(crf_conll_samples))
+
+		template_file = os.path.join( gv.templates_path , 'template' )
+		train_file = train_file_tempfile.name
+		model_file = os.path.join( gv.models_path , str(crf_model_id) + '.model' )
+		
+		try:
+			starttime = datetime.datetime.now()
+			(status, output) = crf.crf_learn(template_file,train_file,model_file)
+			endtime = datetime.datetime.now()
+			print 'crf_encoding cost %s seconds'%(endtime - starttime)
+			
+			if status != 0:
+				logger.error("crf_encoding(%s) encountered an error"%crf_model_id)
+				return None			
+			model.set_status("trained")
+			return model
+		except Exception, e:
+			print e
+			return None
+		finally:
+			train_file_tempfile.close() # annotate for debug
+
+	# -*- Discarded -*- #
+	# @classmethod 
+	# def train_all_crfModels(self):
+	# 	""""""
+	# 	successful_training_crfModelId_list = list()
+	# 	models = orm.session.query(orm.CrfModel.id).order_by(orm.CrfModel.id).all()
+	# 	for model in models:
+	# 		crf_model_id = model.id
+	# 		logger.info("crfModel(crf_model_id=%s) in training..."%(crf_model_id))
+	# 		print "crfModel(crf_model_id=%s) in training..."%(crf_model_id)
+
+	# 		# print crf_model_id ###
+	# 		crf_train_dataset = datasets.load_train_dataset(crf_model_id) # <=
+	# 		if crf_train_dataset == None:
+	# 			continue
+	# 		crf_model = crf.encode(crf_train_dataset)
+			
+	# 		if crf_model == None:
+	# 			logger.error("crfModel(crf_model_id=%s) in training...failed"%(crf_model_id))
+	# 			print "crfModel(crf_model_id=%s) in training...failed"%(crf_model_id)
+	# 			continue
+	# 		successful_training_crfModelId_list.append(crf_model_id)
+	# 	return successful_training_crfModelId_list
+# ----------------------------------------------------------------------------------------------
+
+	# 解码操作的大致调用流程
+	# 构建testUnit_list
+	# test_dataset = datasets.tokenize_for_decode(testUnit_list) ->
+	# output_dataset = decode(test_dataset)->
+	# json_result = evaluate(output_dataset)	<problem???>
+	@classmethod
+	def decode(self,test_dataset):
+		""""""
+		# time.sleep(15)
+		print 'test_dataset: %s sentences,decoding...'%len(test_dataset.crf_testUnit_list)
+		starttime = datetime.datetime.now()
+		#-----------------------------------------------------------------------------------
+		crf_output_samples = list()
+		# 解码器是唯一的，现阶段不用多线程，
+		# 如果后续需要多线程，decoder内部需要互斥的访问tagger资源，从这个角度上看，多线程对多个model_id性能提高并不多
+		# 这里decoder扮演了tagger缓存的角色
+		dc = decoder()
+		for u in test_dataset.crf_testUnit_list:
+			outputUnit = dc.decode(u)
+			crf_output_samples.append(outputUnit)
+		#-----------------------------------------------------------------------------------
+		endtime = datetime.datetime.now()
+		print 'decoding cost %s seconds'%(endtime - starttime)
+		return output_dataset(crf_output_samples)
+
+	# -*- Discarded -*- #
+	# @classmethod
+	# def json_evaluate(self,output_dataset):
+	# 	""" output_dataset.crf_testUnit_list[0].content ->
+	# 		铜	O	0.99991734962
+	# 		芯	O	0.999979515643
+	# 		聚氯乙烯	O	0.999990573573
+	# 		...
+	# 	"""
+
+	# 	json_result = ""
+	# 	for test_unit in output_dataset.crf_testUnit_list:
+	# 		tokenList = test_unit.content.split('\n')
+	# 		# 格式的转换，目的可以复用先前的代码
+	# 		tokenList = evalutil.format_filter(tokenList)
+			
+	# 		partial_res = evalutil.conlleval(tokenList , return_json=True)
+	# 		if partial_res:
+	# 			conlleval_res = partial_res + [ '\n'.join( tokenList ) ]
+	# 		else:
+	# 			conlleval_res = ''
+			
+	# 		parsed_json_str = json.dumps( conlleval_res )
+	# 		json_result += test_unit.id+"|||"+test_unit.crfModelId + '|||' +parsed_json_str
+	# 		json_result += "\n"
+	# 	return json_result
+	
+	@classmethod
+	def analysis(self,PatternMatchEngine,output_dataset):
+		""" output_dataset
+		"""	
+		# 根据crf_model_id从指定的数据库中找到(first_type_code,second_type_code).
+		# 缓存到crfModelId_code_dict，加快查询的速度
+		crfModelId_code_dict = dict()
+		for test_unit in output_dataset.crf_testUnit_list:
+			crf_model_id = test_unit.crfModelId
+			if crfModelId_code_dict.get(crf_model_id) is None:
+				try:
+					code_tuple = orm.CrfModel.get_code_tuple(crf_model_id)
+				except Exception:
+					logger.error('invalid id=<%s>' % (crf_model_id))
+					continue
+				crfModelId_code_dict[crf_model_id] = code_tuple
+
+		test_bucket_list = []
+		json_result = ""
+		PatternMatchEngine.xxx_cache = dict()
+		PatternMatchEngine.baseMaterialTypeAttr_cache = dict()
+		for test_unit in output_dataset.crf_testUnit_list:
+			id = test_unit.id
+			crf_model_id = test_unit.crfModelId
+			output_str = test_unit.content
+			code_tuple =crfModelId_code_dict.get(crf_model_id,None)
+			if not code_tuple:
+				# 这样会丢失一条数据,但是避免了更多复杂的错误处理,关注数据的质量
+				continue
+			(first_type_code,second_type_code) = code_tuple
+			attr_value_dict = PatternMatchEngine.matching(crf_model_id,first_type_code,second_type_code,test_unit.content)# pattern模块解析tokenList返回属性名和属性值的字典 =>
+			print '='*30
+			print crf_model_id,code_tuple,'\n',output_str,attr_value_dict
+			tb = testBucket(id,crf_model_id,output_str,attr_value_dict)
+			test_bucket_list.append(tb)
+		return test_bucket_list
+
+# --------------------------------------------------------------------------------------
+	# 交叉验证
+	@classmethod
+	def cross_validate(self, kfold, validate_dataset):
+		""""""
+		crf_model_id = validate_dataset.crf_model_id
+
+		proportion = 1.0/float(kfold)
+		max_num = len(validate_dataset.cross_validate_samples)
+		output_file_list = list()
+
+		# import pdb;pdb.set_trace()
+		for i in range(int(kfold)):
+			random.shuffle(validate_dataset.cross_validate_samples)
+			train_validate_samples = validate_dataset.cross_validate_samples[0:int(max_num*(1-proportion))]
+			test_validate_samples = validate_dataset.cross_validate_samples[int(max_num*(1-proportion)):]
+			# 对训练验证样本处理，训练模型
+			validate_model_file = crf.__cross_validate_encode(crf_model_id,train_validate_samples)		
+			# 对测试验证样本decode处理，获得输出文件
+			output_file_list.append( crf.__cross_validate_decode(validate_model_file,test_validate_samples) )
+		
+		# import pdb;pdb.set_trace() ###
+		output_file_tempfile = tempfile.NamedTemporaryFile(mode='a')
+		for output_file in output_file_list:
+			output_file_tempfile.write(output_file.read()+'\n\n')
+			output_file_tempfile.flush() #将缓冲区中的数据立刻写入文件
+			output_file.close()
+		# import pdb;pdb.set_trace() ###
+		# perl脚本对测试结果文件进行评价
+		(status,output) = conlleval.conlleval(output_file_tempfile.name)
+
+		output_file_tempfile.close()
+		return (status,output)
+
+	@classmethod
+	def __cross_validate_encode(self,crf_model_id,train_validate_samples):
+		""""""
+		train_file_tempfile = tempfile.NamedTemporaryFile()
+		train_file_tempfile.write('\n'.join(train_validate_samples))
+		train_file_tempfile.flush() #将缓冲区中的数据立刻写入文件
+
+		template_file = os.path.join( gv.templates_path , 'template' )
+		train_file = train_file_tempfile.name
+		model_file = os.path.join( gv.validate_models_path , str(crf_model_id) + '.model' )
+
+		try:
+			starttime = datetime.datetime.now()
+			(status, output) = crf.crf_learn(template_file,train_file,model_file)
+			endtime = datetime.datetime.now()
+			print 'crf_learning cost %s seconds'%(endtime - starttime)
+
+			if status != 0:
+				raise Exception("crf_learn error:\n",output)
+			return model_file
+		except Exception, e:
+			print e
+			return None
+		finally:
+			train_file_tempfile.close()
+
+	@classmethod
+	def __cross_validate_decode(self,validate_model_file,test_validate_samples):
+		""""""
+		test_file_tempfile = tempfile.NamedTemporaryFile()
+		test_file_tempfile.write('\n'.join(test_validate_samples))
+		test_file_tempfile.flush() #将缓冲区中的数据立刻写入文件
+
+		output_file_tempfile = tempfile.NamedTemporaryFile()
+		try:
+			(status, output) = crf.crf_test(validate_model_file,test_file_tempfile.name,output_file_tempfile.name)
+			if status != 0:
+				raise Exception("crf_test error:\n",output)
+			return output_file_tempfile
+		except Exception, e:
+			print e
+			return None
+		finally:
+			test_file_tempfile.close()
+
+		

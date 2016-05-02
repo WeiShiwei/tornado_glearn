@@ -1,0 +1,29 @@
+<html>
+<head><title>Upload File</title></head>
+  <body>
+    <h1>Enter terms below.</h1>
+    <form action='file' enctype="multipart/form-data" method='post'>
+      <p>Identity<br><input type="text" name="identity" value=""></p>
+      <!-- <p>E-mail Address<br><input type="text" name="email" value=""></p> -->
+      
+      <!-- <p>Load Files Type<br>
+      <select name="load_files_type"> 
+        <option value="line">Line</option> 
+        <option value="document" selected="selected">Document</option> 
+      </select> 
+      
+      <p>Text Categorization(Model Learning) Type<br>
+      <select name="model_learning_type"> 
+        <option value="flat" selected="selected">Flat </option> 
+        <option value="hierarchical">Hierarchical </option> 
+      </select>  -->
+
+      
+
+      <p>Select Compressed Train Data(.zip & .tar.gz file formats supported)<br><input type='file' name='file'/></p>
+      <input type='submit' value='submit'/>
+    </form>
+
+  
+  </body>
+</html>

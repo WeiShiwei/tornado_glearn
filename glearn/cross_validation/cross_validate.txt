@@ -1,0 +1,16 @@
+(first_type_code=58,second_type_code=15) hava no data!5815
+NO_DATA_ERROR
+================================================================================
+2343
+processed 109 tokens with 15 phrases; found: 15 phrases; correct: 15.
+accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+            EDDLA: precision: 100.00%; recall: 100.00%; FB1: 100.00  5
+            EDDYV: precision: 100.00%; recall: 100.00%; FB1: 100.00  5
+               PZ: precision: 100.00%; recall: 100.00%; FB1: 100.00  5
+================================================================================
+(first_type_code=51,second_type_code=10) hava no data!5110
+NO_DATA_ERROR
+================================================================================
+(first_type_code=21,second_type_code=17) hava no data!2117
+NO_DATA_ERROR
+================================================================================

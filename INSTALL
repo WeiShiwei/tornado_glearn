@@ -1,0 +1,80 @@
+
+tornado_glearn的外部依赖（非python模块）
+==================
+
+CRF++-0.58工具(.../800w_classifier/tornado_glearn/glearn/crf/dependence/CRF++-0.58):
+（1）工具包的编译和安装请参考工具包内部的INSTALL文件；
+（2）然后在python目录下安装CRF++-0.58的python接口模块，编译及安装的步骤参考python目录下README
+
+LINUX下的 CRF++，需要编译后运行，但运行时报错： crf_learn: error while loading shared libraries: libcrfpp.so.0: cannot open shared object file: No such file or directory 初步认为是找不到 libcrfpp.so.0，但是看到这个文件已经存在于 /usr/local/lib目录中，因此想到把该目录加到类似 JAVA的 CLASSPATH中。
+下面是解决方法：
+1.修改 /etc/ld.so.conf文件
+2.加入 include /usr/local/lib
+3.执行 /sbin/ldconfig -v，刷新 LIB库
+
+
+Perl语言解释器版本:
+weishiwei@ubuntu:~/800w_classifier/tornado_glearn/api/test$ perl -v
+This is perl 5, version 18, subversion 2 (v5.18.2) built for i686-linux-gnu-thread-multi-64int
+(with 41 registered patches, see perl -V for more detail)
+
+
+自定义的python模块
+==================
+
+uniform模块（.../800w_classifier/tornado_glearn/dependence/uniform）:
+统一化模块，主要的功能是把文本中同一种意义的“字符”、“字符序列”或“字或词组”统一化
+
+pattern模块（.../800w_classifier/tornado_glearn/glearn/crf/pattern.py）:
+pattern模块中定义模式匹配引擎PatternMatchEngine类，主要的功能提供写规则的接口，把CRF算法提取的结果
+按照规则做相应的调整
+
+
+======>
+tornado_glearn/dependence目录下
+ansj_seg/
+├── lib
+│   ├── ansj_seg-2.0.7.jar
+│   ├── nlp-lang-0.3.jar
+│   └── tree_split-1.4.jar
+├── library
+│   ├── ambiguity.dic
+│   ├── default.dic
+│   └── souhu.dic
+└── library.properties
+
+
+部署遇到的若干问题:
+===================
+安装JPype-0.5.4.2.zip
+下载网址：http://sourceforge.net/projects/jpype/
+安装前需要设定环境变量JAVA_HOME
+
+安装CRF++-0.58工具：
+[glearn@bigdata-176-44 CRF++-0.58]$ mkdir /home/glearn/local/crfpp
+[glearn@bigdata-176-44 CRF++-0.58]$ ls /home/glearn/local/crfpp
+[glearn@bigdata-176-44 CRF++-0.58]$ ./config --prefix=/home/glearn/local/crfpp
+-bash: ./config: 没有那个文件或目录
+[glearn@bigdata-176-44 CRF++-0.58]$ config --prefix=/home/glearn/local/crfpp
+-bash: config: command not found
+[glearn@bigdata-176-44 CRF++-0.58]$ vim INSTALL 
+[glearn@bigdata-176-44 CRF++-0.58]$ 
+[glearn@bigdata-176-44 CRF++-0.58]$ 
+[glearn@bigdata-176-44 CRF++-0.58]$ ./configure --prefix=/home/glearn/local/crfpp
+[glearn@bigdata-176-44 CRF++-0.58]$ make
+[glearn@bigdata-176-44 CRF++-0.58]$ 
+[glearn@bigdata-176-44 CRF++-0.58]$ vim ~/.bash_profile  <<< export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/glodon/local/crfpp/lib
+[glearn@bigdata-176-44 CRF++-0.58]$ 
+[glearn@bigdata-176-44 CRF++-0.58]$ source ~/.bash_profile 
+-bash: export: `/home/glearn/local/python/bin:/home/weishiwei/local/python/bin:/home/glearn/local/python/bin:/usr/lib/jvm/java-1.7.0/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/glearn/bin': not a valid identifier
+[glearn@bigdata-176-44 CRF++-0.58]$ 
+[glearn@bigdata-176-44 CRF++-0.58]$ cd python/
+[glearn@bigdata-176-44 python]$ python setup.py install
+[glearn@bigdata-176-44 python]$ ls
+build  CRFPP.py  CRFPP.pyc  CRFPP_wrap.cxx  README  setup.py  test.py
+[glearn@bigdata-176-44 python]$ python test.py 
+RuntimeError:  feature_index.cpp(193) [mmap_.open(model_filename)] mmap.h(153) [(fd = ::open(filename, flag | O_BINARY)) >= 0] open failed: ../model
+
+
+ImportError: No module named MySQLdb
+[glearn@bigdata-176-44 tornado_glearn]$ pip install mysql-python

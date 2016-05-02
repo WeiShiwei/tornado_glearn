@@ -1,0 +1,3115 @@
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+控制	v	O
+电缆	n	O
+
+KVV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+4	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VLV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+35	m	O
+×	x	O
+4	x	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VLV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+50	m	O
+×	x	O
+4	x	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VLV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+70	m	O
+×	x	O
+4	x	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VLV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+95	m	O
+×	x	O
+4	x	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VLV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+120	m	O
+×	x	O
+4	x	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VLV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+150	m	O
+×	x	O
+4	x	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+4	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+4	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+4	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+4	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+VV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+4	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+控制	v	O
+电缆	n	O
+
+KVV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1.5	m	O
+×	x	O
+4	x	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+控制	v	O
+电缆	n	O
+
+KVV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1.5	m	O
+×	x	O
+5	x	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+电缆	n	O
+
+VLV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+电缆	n	O
+
+VLV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+电缆	n	O
+
+VLV22	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+185	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+BV	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+软	a	O
+电线	n	O
+
+BVR	eng	B-XXX
+
+0.6	m	B-EDDYK
+KV	eng	I-EDDYK
+
+1	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+橡胶	n	O
+绝缘	n	O
+电缆	n	O
+
+BX	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+橡胶	n	O
+绝缘	n	O
+电缆	n	O
+
+BLX	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+BLV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+橡胶	n	O
+绝缘	n	O
+软	a	O
+电缆	n	O
+
+BXR	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+橡胶	n	O
+绝缘	n	O
+软	a	O
+电缆	n	O
+
+BXR	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+耐火	a	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+NHBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+耐火	a	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+NHBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+6	x	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+185	m	B-BCJMM
+
+阻燃	v	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+扁	a	O
+电线	n	O
+
+ZRBV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+240	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+6	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+6	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+6	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+重型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YZ	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+6	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+2	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+6	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+0.75	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+4	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+6	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+4	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+中型	b	O
+橡胶	n	O
+护套	nz	O
+电缆	n	O
+
+YC	eng	B-XXX
+
+3	x	B-XS
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+16	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+185	m	B-BCJMM
+
+电焊	n	O
+线	n	O
+电缆	n	O
+
+YH	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+240	m	B-BCJMM
+
+橡胶	n	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+BXVW	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1.5	m	B-BCJMM
+
+橡胶	n	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+BXVW	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+185	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+240	m	B-BCJMM
+
+铠装	n	O
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+300	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+185	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+240	m	B-BCJMM
+
+铠装	n	O
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV22	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+300	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+185	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+240	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+300	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+25	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+35	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+50	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+70	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+95	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+120	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+150	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+185	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+240	m	B-BCJMM
+
+铝	n	B-XXCZ
+芯	ng	I-XXCZ
+聚乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+交联	j	O
+电缆	n	O
+
+YJLV	eng	B-XXX
+
+1	m	B-EDDYK
+KV	eng	I-EDDYK
+
+3	x	B-XS
+×	x	O
+300	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+软	a	O
+电缆	n	O
+
+RV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+0.3	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+软	a	O
+电缆	n	O
+
+RV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+0.5	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+双绞线	n	O
+
+RVS	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+0.3	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+软	a	O
+电缆	n	O
+
+RVB	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+0.3	m	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+BVV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+1	x	B-BCJMM
+
+铜	n	B-XXCZ
+芯	ng	I-XXCZ
+聚氯乙烯	nz	O
+绝缘	n	O
+聚氯乙烯	nz	O
+护套	nz	O
+电缆	n	O
+
+BLVV	eng	B-XXX
+
+1	x	B-XS
+×	x	O
+2.5	m	B-BCJMM
+
